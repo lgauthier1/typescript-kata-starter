@@ -2,7 +2,7 @@
 	"name": "typescript-kata-starter",
 	"type": "module",
 	"author": "laurent GAUTHIER (https://github.com/lgauthier1)",
-  	"license": "MIT",
+	"license": "MIT",
 	"scripts": {
 		"tdd": "tsx scripts/run-vitest.ts watch",
 		"test": "tsx scripts/run-vitest.ts run",
