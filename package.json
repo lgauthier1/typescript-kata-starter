@@ -1,0 +1,20 @@
+{
+	"name": "typescript-kata-starter",
+	"type": "module",
+	"author": "laurent GAUTHIER (https://github.com/lgauthier1)",
+  	"license": "MIT",
+	"scripts": {
+		"tdd": "tsx scripts/run-vitest.ts watch",
+		"test": "tsx scripts/run-vitest.ts run",
+		"lint": "biome check .",
+		"fmt": "biome format --write .",
+		"new:kata": "tsx scripts/new-kata.ts"
+	},
+	"devDependencies": {
+		"@biomejs/biome": "^1.8.0",
+		"@types/node": "^22.0.0",
+		"tsx": "^4.16.0",
+		"typescript": "^5.5.0",
+		"vitest": "^2.0.0"
+	}
+}

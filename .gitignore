@@ -1,0 +1,4 @@
+vitest.config.*.timestamp-*
+*.timestamp-*
+node_modules/
+dist/
